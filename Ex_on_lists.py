@@ -19,13 +19,20 @@ list2 = ["Dear", "Sir"]
 i=0
 j=0
 list3 = []
-while(j<len(list2)):
-  while(i< len(list1)):
-    list3.append(list1[i] + list2[j])
-    i+= 1
+while(i< len(list1)):
+  list3.append(list1[i] + list2[j])
+  i+= 1
 print(list3)
 
 #Question 4: Remove empty strings from the list of strings
 list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+i=0
 print(list1)
-list1.remove("")
+# Question 5: Given a Python list, find value 20 in the list, and if it is present, replace it with 200. Only update the first occurrence of a value
+list1 = [5, 10, 15, 20, 25, 50, 20]
+list1.insert(list1.index(20), 200)
+list1.pop(list1.index(20))
+print(list1)
+# Question 6: Given a Python list, remove all occurrence of 20 from the list
+list1 = [5, 20, 15, 20, 25, 50, 20]
+i=list1.count(20)
