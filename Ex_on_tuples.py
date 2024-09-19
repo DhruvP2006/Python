@@ -15,7 +15,7 @@ print (aTuple)
 
 aTuple = (10, 20, 30, 40)
 a, b, c, d = aTuple
-print(a, b, c, d)
+print("a:",a, "b:", b, "c:", c, "d:", d)
 
 #Exercise Question 5: Swap the following two tuples
 tuple1 = (11, 22)

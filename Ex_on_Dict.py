@@ -1,8 +1,11 @@
 #1) Check if a value 200 exists in a dictionary
 sampleDict = {'a': 100, 'b': 200, 'c': 300}
-for value in sampleDict.values():
-  if(value == 200):
-    print(True)
+samplelist = list(sampleDict.values())
+i = len(samplelist)-1
+while(i>=0):
+  if(samplelist[i] == 200):
+    print(samplelist[i] == 200)
+  i -= 1
 
 #2) Convert the two lists given below into one dictionary
 keys = ['Ten', 'Twenty', 'Thirty']
