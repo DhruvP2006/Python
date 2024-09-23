@@ -7,5 +7,5 @@ i = 0
 while(i < len(c)):
   d.update({c[i]:b.count(c[i])})
   i += 1
-d.pop(" ")
+# d.pop(" ")sdc
 print(d)
