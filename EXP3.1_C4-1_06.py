@@ -1,23 +1,22 @@
 #Write a program to read the numbers until -1 is encountered. Also, count the number of prime and composite numbers entered by the user.	
-i = [input("Enter Numbers: ")]
-j = 0
-flag = False
-prime_num = 0
-composite_num = 0
-
-for n in i:
-  print(n)
-  if(n == -1):
+i = int(input("Enter the Number of Elements you want to Enter: "))
+j = []
+for k in range(i):
+  j.append(int(input()))
+for k in range(len(j)):
+  if(j[k]!= -1):
+    print(j[k])
+  else:
     break
-
-# for m in i:
-#   if(m == -1):
-#     break
-#   for k in range(2, i):
-#     if(i%k == 0):
-#       flag = True
-#       break
-#   if(flag==True):
-#     prime_num += 1
-#   else:
-#     composite_num += 1
+com_num = 0
+prime_num = 0
+for k in range(len(j)):
+  for x in range(2, int(j[k]+1)):
+    if(j[k]%x != 0 or j[k] == 2):
+      prime_num += 1
+      break
+    else:
+      com_num += 1
+      break
+print("Count of Prime Numbers is:", prime_num)
+print("Count of Composite Numbers is: ", com_num)
