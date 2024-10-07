@@ -1,9 +1,9 @@
-numbers = [1, -2, 3, 4, -5, 6, 0, 7, 8]
+def test_range(n):
+    if(n in range(3, 9)):
+        print("The given number is in between 3 and 8: ")
+    else:
+        print("The given number is out of range")
 
-for num in numbers:
-    if num < 0:  
-        continue  
-    if num == 0:  
-        print("Encountered zero, exiting the loop.")
-        break  
-    print(f"Odd number: {num}" if num % 2 != 0 else f"Even number: {num}")
+a = input("Enter a number:")
+a = int(a)
+print(test_range(a))

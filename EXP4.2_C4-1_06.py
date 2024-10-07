@@ -9,5 +9,4 @@ def letter_frequency(a):
     d.update({c[i]:b.count(c[i])})
     i += 1
   return d
-e = letter_frequency(input("Enter a String:"))
-print(e)
+print(letter_frequency(input("Enter a String:")))
