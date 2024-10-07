@@ -1,9 +1,9 @@
-numbers = [1, -2, 3, 4, -5, 6, 0, 7, 8]
-
-for num in numbers:
-    if num < 0:  
-        continue  
-    if num == 0:  
-        print("Encountered zero, exiting the loop.")
-        break  
-    print(f"Odd number: {num}" if num % 2 != 0 else f"Even number: {num}")
+def tri_recursion(k):
+    if(k > 0):
+        result = k + tri_recursion(k - 1)
+        print(result)
+    else:
+        result = 0
+    return result
+print("Recursion Example Results")
+tri_recursion(6)
