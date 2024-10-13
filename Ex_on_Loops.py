@@ -20,6 +20,11 @@
 #   print(n*i)
 
 # Program to Display Fibonacci Sequence for n terms. Read the value of n from the user.
+n = int(input("Enter a Number: "))
+for i in range(0, n):
+  
+
+
 
 # Program to find sum of elements in a given array
 # a = [1, 2, 3, 4, 5, 6, 7]
@@ -37,8 +42,8 @@
 # print(m)
 
 # Program to Reverse a Number
-a = (input("Enter a Number:"))
-a = list(a)
-for i in range(2, len(a)):
-  a = a[len(a)-i]
-print(a)
+# a = (input("Enter a Number:"))
+# a_reverse = ""
+# for i in range(len(a) - 1, -1, -1):
+#     a_reverse += a[i]
+# print(a_reverse)

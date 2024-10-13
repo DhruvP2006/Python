@@ -1,0 +1,1 @@
+# Write a Python program that uses lambda with filter() to select even numbers and map() to square them, displaying the original, filtered, and squared lists.

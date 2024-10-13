@@ -1,0 +1,1 @@
+# Write a Python program that generates a list of Pythagorean triplets (a, b, c) from a given list of integers, using lambda, filter(), and map(). The program should filter out invalid triplets and display valid ones.
