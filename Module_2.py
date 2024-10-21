@@ -31,5 +31,17 @@
 # ● Remove all digits from the concatenated string.
 # ● Convert the string to uppercase.
 # ● Print the final result.
-string_1 = input("Enter the First String")
-string_2 = input("Enter the Second String")
+# string_1 = input("Enter the First String: ")
+# string_2 = input("Enter the Second String: ")
+# main_string = string_1+string_2
+# def num_filter(x):
+#   if(x.isdigit()):
+#     return False
+#   else:
+#     return True 
+# final_string = filter(num_filter, main_string)
+# upper_string = "".join(final_string)
+# upper_string = upper_string.upper()
+# print(upper_string) 
+
+# Write a Python program that takes a sentence from the user and prints the sentence in reverse order. For example, "Hello World" should be printed as "World Hello Write a program that extracts a substring from a given text, starting from the start index and ending at the end index. Print the extracted substring.

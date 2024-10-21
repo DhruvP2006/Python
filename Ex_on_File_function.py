@@ -48,8 +48,38 @@
 #   print("True")
 # os.remove("file.txt")
 
-with open("abc.txt", "a+") as f:
-  f.write("Dhruv")
-  line=f.readline()
+# file_name = "abc.txt"
+# try:
+#     with open(file_name, "r") as file:
+#         text = file.read()
+#         words = text.split()
+#         word_count = len(words)
+#         print(f"Number words in {file_name} is: {word_count}")
+# except FileNotFoundError:
+#     print(f"Error: The file '{file_name}' was not found.")
 
+# Copy content from one file to another
+# source_file = "abc.txt"
+# destination_file = "output.txt"
+# try:
+#   with open(source_file, "r") as source, open(destination_file, "w") as destination:
+#     destination.write(source.read())
+#   print(f"Content copied from{source_file} to {destination_file}")
+# except FileNotFoundError:
+#   print(f"Error: The file '{source_file}' was not found.")
 
+# Find and replace a text in a file
+# file_name = "abc.txt"
+# old_word = "Dhruv"
+# new_word = "Krish"
+# try:
+#   with open(file_name, 'r') as file:
+#     text = file.read()
+#     update_text = text.replace(old_word, new_word)
+#   with  open(file_name, 'w') as file:
+#     file.write(update_text)
+#   print(f"{old_word} replaced with {new_word} in {file_name}")
+# except FileNotFoundError:
+#   print(f"Error: The file '{file_name}' was not found.")
+
+# print Size of png file
