@@ -1,1 +1,0 @@
-# Write Python programming to display a bar chart of the popularity of programming Languages. Also, draw a Pie chart for popularity Data values.
