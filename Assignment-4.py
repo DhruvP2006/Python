@@ -80,3 +80,22 @@
 #   b = input("Enter a String: ")
 #   f.write(b)
 
+# Q10
+# class EvenNumError(Exception):
+#   pass
+# try:
+#   line = ''
+#   flag = False
+#   with open("source.txt", 'r') as f:
+#     line = f.readlines()
+#     for i in line:
+#       if(i.strip().isdigit() and i%2==0):
+#         raise EvenNumError("")
+#         Flag = True
+
+#   with open("destination.txt", "w") as f:
+#     f.writelines(line)
+# except FileNotFoundError:
+#   print("The said file is not found")
+# except EvenNumError as e:
+#   print("The entered Number is an Even Number")

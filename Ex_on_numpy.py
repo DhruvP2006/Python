@@ -7,9 +7,9 @@ import numpy as np
 # print(a.shape)
 # print(c.shape) #gives the dimension in rows and columns
 # print(a.dtype)
-# print(a.itemsize)
+# print(a.itemsize)  #returns number of bytes
 
-a = np.array([[1,2,3,4,5,6,7], [8,9,10,11,12,13,14]])
+# a = np.array([[1,2,3,4,5,6,7], [8,9,10,11,12,13,14]])
 # print(a.shape)
 # print(a[1, 5]) #a[row, column]
 # print(a[1, -2])

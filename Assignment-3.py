@@ -95,3 +95,57 @@
 #   print("Fourth Quadrant")
 
 # Q10
+# while(True):
+#   a = int(input("Enter a number"))
+#   if(((1+(2**a))%(1+(2*a)))==0):
+#     print("True")
+#   else:
+#     print("False")
+
+# Q11
+# count_upper = 0
+# count_lower = 0
+# a = input("Enter a String:" )
+# for i in a:
+#   if(i.isupper()):
+#     count_upper += 1
+#   else:
+#     count_lower += 1
+# print(count_upper, count_lower)
+
+# Q12
+# a = input("Enter a String")
+# for i in a:
+#   if(i.isdigit()):
+#     print(f"{i} is a digit")
+#   elif(i.islower()):
+#     print(f"{i} is lowercase")
+#   elif(i.isupper()):
+#     print(f"{i} is uppercase")
+#   else:
+#     print(f"{i} Something Else")
+#   match i:
+#     case _ if i.isdigit():
+#       print(f"{i} is a digit")
+#     case _ if i.islower():
+#        print(f"{i} is lowercase")
+#     case _ if i.isupper():
+#       print(f"{i} is uppercase")
+#     case _:
+#       print(f"{i} Something Else")
+
+
+# Q17
+# a = (input("Enter 5 integers: "))
+# i = 5
+# j = 1
+# while(i>0 and j<=5):
+#   print(f"{a[:i]}       {a[:j]}")
+#   i -= 1
+#   j += 1
+
+# Q20
+# population = 500000
+# for i in range(0, 10):
+#   population += 0.12*population
+# print(population)
